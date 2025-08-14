@@ -16,7 +16,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="flex-1 flex justify-center">
-          <Image src="/images/hero-students2.png" alt="DibaTech Academy students" width={480} height={320} className="rounded-2xl shadow-lg object-cover" />
+          <Image src="/images/hero-students.png" alt="DibaTech Academy students" width={480} height={320} className="rounded-2xl shadow-lg object-cover" />
         </div>
       </div>
 
