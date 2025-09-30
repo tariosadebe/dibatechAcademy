@@ -1,5 +1,22 @@
-import { getFaculty } from "../../../lib/content";
+"use client";
+import { useEffect, useState } from "react";
 import Link from "next/link";
+
+// Mock data for static export
+const facultyData = [
+  {
+    slug: "jane-doe",
+    name: "Jane Doe",
+    role: "Lead Instructor",
+    expertise: ["Software Engineering", "Web Development"],
+  },
+  {
+    slug: "john-smith",
+    name: "John Smith",
+    role: "Data Analytics Instructor",
+    expertise: ["Data Analytics", "SQL"],
+  },
+];
 
 const filters = [
   { label: "Department", options: ["Software", "Data", "Cybersecurity", "Cloud", "Product", "Design"] },
@@ -7,8 +24,11 @@ const filters = [
   { label: "Expertise", options: ["Web Development", "SQL", "Security"] },
 ];
 
-export default async function FacultyDirectoryPage() {
-  const faculty = await getFaculty();
+export default function FacultyDirectoryPage() {
+  const [faculty, setFaculty] = useState(facultyData);
+
+  // Filtering logic can be added here if needed for static export
+
   return (
     <section className="mx-auto max-w-7xl px-4 py-12">
       <h1 className="text-4xl font-bold mb-4">Faculty Directory</h1>
@@ -19,7 +39,7 @@ export default async function FacultyDirectoryPage() {
         {filters.map(f => (
           <div key={f.label}>
             <label className="block text-xs font-semibold mb-1 text-gray-600">{f.label}</label>
-            <select className="w-full rounded-lg border px-2 py-1 text-sm">
+            <select className="w-full rounded-lg border px-2 py-1 text-sm" disabled>
               <option value="">All</option>
               {f.options.map(o => <option key={o}>{o}</option>)}
             </select>

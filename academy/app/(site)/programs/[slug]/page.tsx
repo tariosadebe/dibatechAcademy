@@ -1,4 +1,13 @@
 import { getProgramDetail } from "../../../../lib/content";
+
+export function generateStaticParams() {
+  return [
+    { slug: "software-engineering" },
+    { slug: "data-analytics" }
+    // Add more slugs as needed
+  ];
+}
+
 export default async function ProgramDetailPage({ params }: { params: { slug: string } }) {
   const program = await getProgramDetail(params.slug);
   if (!program) return <div>Program not found.</div>;
