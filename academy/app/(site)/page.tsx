@@ -54,10 +54,10 @@ export default function HomePage() {
             <li>100+ hiring partners</li>
             <li>Alumni at top tech companies</li>
           </ul>
-          <div className="flex gap-4">
-            <Image src="/images/hero-students.png" alt="Partner 1" width={80} height={40} />
-            <Image src="/images/hero-students.png" alt="Partner 2" width={80} height={40} />
-            <Image src="/images/hero-students.png" alt="Partner 3" width={80} height={40} />
+          <div className="flex gap-4 mt-4">
+            <Image src="/images/Outcomes/Outcome1.png" alt="Outcome 1" width={80} height={80} />
+            <Image src="/images/Outcomes/Outcome2.png" alt="Outcome 2" width={80} height={80} />
+            <Image src="/images/Outcomes/Outcome3.png" alt="Outcome 3" width={80} height={80} />
           </div>
         </div>
         <div className="flex-1">
