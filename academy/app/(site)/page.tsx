@@ -89,9 +89,15 @@ export default function HomePage() {
       <div className="mb-16">
         <h2 className="text-xl font-bold mb-6">Our Partners</h2>
         <div className="flex gap-8 items-center">
-          <Image src="/images/hero-students.png" alt="Partner 1" width={80} height={40} />
-          <Image src="/images/hero-students.png" alt="Partner 2" width={80} height={40} />
-          <Image src="/images/hero-students.png" alt="Partner 3" width={80} height={40} />
+          <a href="https://dibatech.ng/" target="_blank" rel="noopener noreferrer">
+            <Image src="/images/Our-Partners/DibaTech-Limited.png" alt="DibaTech Limited" width={80} height={40} />
+          </a>
+          <a href="https://linker.dibatech.ng/landing" target="_blank" rel="noopener noreferrer">
+            <Image src="/images/Our-Partners/Linker.png" alt="Linker" width={80} height={40} />
+          </a>
+          <a href="https://ebooks.dibatech.ng/" target="_blank" rel="noopener noreferrer">
+            <Image src="/images/Our-Partners/eBooks.png" alt="eBooks" width={80} height={40} />
+          </a>
         </div>
       </div>
 
