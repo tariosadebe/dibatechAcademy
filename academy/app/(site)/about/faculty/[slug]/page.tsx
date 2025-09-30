@@ -1,5 +1,12 @@
 import { getFacultyDetail } from "../../../../../lib/content";
 
+export function generateStaticParams() {
+  return [
+    { slug: "software-engineering" },
+    { slug: "data-analytics" }
+  ];
+}
+
 export default async function FacultyProfilePage({ params }: { params: { slug: string } }) {
   const faculty = await getFacultyDetail(params.slug);
   if (!faculty) return <div>Faculty not found.</div>;
