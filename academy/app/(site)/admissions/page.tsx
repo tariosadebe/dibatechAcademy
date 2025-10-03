@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AdmissionsPage() {
   return (
-    <section className="mx-auto max-w-5xl px-4 py-12">
+    <section className="max-w-4xl mx-auto py-12 px-4">
       <h1 className="text-4xl font-bold mb-4">Admissions & How to Apply</h1>
       <p className="text-lg mb-8 text-gray-700">Start your journey at DibaTech Academy. Follow these steps to apply, review requirements, and secure your place in our next cohort.</p>
 
@@ -33,9 +33,9 @@ export default function AdmissionsPage() {
       </div>
 
       {/* Requirements & Eligibility */}
-      <div className="mb-12">
-        <h2 className="text-xl font-bold mb-2">Requirements & Eligibility</h2>
-        <ul className="list-disc pl-6 text-gray-700 mb-4">
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-4">Requirements & Eligibility</h2>
+        <ul className="list-disc pl-6 mb-2">
           <li>Minimum age: 16 years</li>
           <li>Secondary school certificate or equivalent</li>
           <li>Basic computer literacy</li>
@@ -45,8 +45,8 @@ export default function AdmissionsPage() {
       </div>
 
       {/* Deadlines & Cohorts */}
-      <div className="mb-12">
-        <h2 className="text-xl font-bold mb-2">Important Dates</h2>
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-4">Important Dates</h2>
         <table className="w-full mb-4 text-sm">
           <thead>
             <tr className="bg-gray-100">
@@ -68,46 +68,47 @@ export default function AdmissionsPage() {
             </tr>
           </tbody>
         </table>
-        <Link href="/admissions/dates" className="text-blue-600 font-medium">See all deadlines</Link>
+        <Link href="/admissions/deadlines" className="text-blue-600 font-medium">See all deadlines</Link>
       </div>
 
       {/* Tuition & Scholarships */}
-      <div className="mb-12 grid md:grid-cols-2 gap-8">
-        <div>
-          <h2 className="text-xl font-bold mb-2">Tuition & Fees</h2>
-          <table className="w-full mb-2 text-sm">
-            <thead>
-              <tr className="bg-gray-100">
-                <th className="py-2 px-4 text-left">Program</th>
-                <th className="py-2 px-4 text-left">Tuition</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="py-2 px-4">Software Engineering Diploma</td>
-                <td className="py-2 px-4">₦300,000</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4">Data Analytics Certificate</td>
-                <td className="py-2 px-4">₦180,000</td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4">Cybersecurity Bootcamp</td>
-                <td className="py-2 px-4">₦150,000</td>
-              </tr>
-            </tbody>
-          </table>
-          <Link href="/admissions/tuition-fees" className="text-blue-600 font-medium">See full tuition & fees</Link>
-        </div>
-        <div>
-          <h2 className="text-xl font-bold mb-2">Scholarships</h2>
-          <ul className="list-disc pl-6 text-gray-700 mb-2">
-            <li>Merit-based scholarships</li>
-            <li>Women in Tech awards</li>
-            <li>Financial aid for eligible students</li>
-          </ul>
-          <Link href="/admissions/scholarships" className="text-blue-600 font-medium">See all scholarships</Link>
-        </div>
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-4">Tuition & Fees</h2>
+        <table className="w-full mb-2 text-sm">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="py-2 px-4 text-left">Program</th>
+              <th className="py-2 px-4 text-left">Tuition</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="py-2 px-4">Software Engineering Diploma</td>
+              <td className="py-2 px-4">₦300,000</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4">Data Analytics Certificate</td>
+              <td className="py-2 px-4">₦180,000</td>
+            </tr>
+            <tr>
+              <td className="py-2 px-4">Cybersecurity Bootcamp</td>
+              <td className="py-2 px-4">₦150,000</td>
+            </tr>
+          </tbody>
+        </table>
+        <Link href="/admissions/tuition-fees" className="text-blue-600 font-medium">See full tuition & fees</Link>
+      </div>
+
+      <div className="mb-8">
+        <h2 className="text-xl font-bold mb-2">Class Types</h2>
+        <ul className="list-disc pl-6">
+          <li>
+            <span className="font-semibold">Standard Free Classes:</span> No tuition, only pay for ID cards.
+          </li>
+          <li>
+            <span className="font-semibold">Paid Classes:</span> Tuition applies as listed above.
+          </li>
+        </ul>
       </div>
 
       {/* Contact Admissions */}
