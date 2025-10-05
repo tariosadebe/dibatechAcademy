@@ -3,10 +3,19 @@ export default function ContactPage() {
     <section className="mx-auto max-w-4xl px-4 py-12">
       <h1 className="text-4xl font-bold mb-4">Contact DibaTech Academy</h1>
       <div className="mb-8">
-        <p className="mb-2">WhatsApp: <a href="https://wa.me/2348000000000" target="_blank" rel="noopener" className="text-blue-600">+234 800 000 0000</a></p>
         <p className="mb-2">Email: <a href="mailto:academy@dibatech.ng" className="text-blue-600">academy@dibatech.ng</a></p>
         <p className="mb-2">Address: Lagos, Nigeria</p>
         <p className="mb-2">Office hours: Mon–Fri, 9am–5pm</p>
+      </div>
+
+      <div className="space-y-4">
+        <div>
+          <h3 className="font-semibold mb-2">WhatsApp</h3>
+          <p className="text-gray-600">+234 913 670 1855</p>
+          <a href="https://wa.me/2349136701855" className="text-blue-600 hover:underline">
+            Chat on WhatsApp
+          </a>
+        </div>
       </div>
 
       {/* Inquiry Form */}

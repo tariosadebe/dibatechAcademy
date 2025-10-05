@@ -114,7 +114,7 @@ export default function AdmissionsPage() {
       {/* Contact Admissions */}
       <div className="bg-blue-50 rounded-2xl p-8 text-center mt-12">
         <h3 className="text-xl font-bold mb-2">Questions? Talk to Admissions</h3>
-        <p className="mb-4">WhatsApp: <a href="https://wa.me/2348000000000" target="_blank" rel="noopener" className="text-blue-600">+234 800 000 0000</a> | Email: <a href="mailto:admissions@dibatech.ng" className="text-blue-600">admissions@dibatech.ng</a></p>
+        <p className="mb-4">WhatsApp: <a href="https://wa.me/2349136701855" target="_blank" rel="noopener" className="text-blue-600">+234 913 670 1855</a> | Email: <a href="mailto:admissions@dibatech.ng" className="text-blue-600">admissions@dibatech.ng</a></p>
         <Link href="/contact" className="rounded-2xl px-6 py-3 bg-blue-600 text-white font-semibold shadow">Contact Admissions</Link>
       </div>
     </section>
