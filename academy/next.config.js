@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  trailingSlash: true,
   images: {
-    unoptimized: true, // Required for static export if using next/image
+    unoptimized: true
   },
-};
+  assetPrefix: '',
+  basePath: ''
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
