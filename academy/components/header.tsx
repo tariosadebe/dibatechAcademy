@@ -19,7 +19,14 @@ export function Header() {
           <Link href="/contact">Contact</Link>
         </nav>
         <div className="ml-auto">
-          <Link href="/admissions" className="rounded-2xl px-4 py-2 bg-black text-white text-sm">Apply Now</Link>
+          <Link 
+  href="https://students.dibatech.ng/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="rounded-2xl px-4 py-2 bg-black text-white text-sm font-semibold shadow hover:bg-gray-800"
+>
+  Apply Now
+</Link>
         </div>
       </div>
     </header>
