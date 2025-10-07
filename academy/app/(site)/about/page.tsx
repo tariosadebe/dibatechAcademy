@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export const metadata = {
   title: "About Us · DibaTech Academy",
@@ -120,6 +119,93 @@ export default function AboutPage() {
             Apply Now
           </Link>
         </div>
+      </div>
+
+      {/* Deadlines & Cohorts */}
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-4">Important Dates - Year-Round Enrollment</h2>
+        <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+          <p className="text-green-800 font-medium">✅ Rolling Admissions Available</p>
+          <p className="text-green-700 text-sm">Since our programs are online, you can apply and start any month of the year!</p>
+        </div>
+        <table className="w-full mb-4 text-sm">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="py-2 px-4 text-left">Month</th>
+              <th className="py-2 px-4 text-left">Application Deadline</th>
+              <th className="py-2 px-4 text-left">Cohort Start Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">January</td>
+              <td className="py-2 px-4">December 15</td>
+              <td className="py-2 px-4">January 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">February</td>
+              <td className="py-2 px-4">January 15</td>
+              <td className="py-2 px-4">February 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">March</td>
+              <td className="py-2 px-4">February 15</td>
+              <td className="py-2 px-4">March 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">April</td>
+              <td className="py-2 px-4">March 15</td>
+              <td className="py-2 px-4">April 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">May</td>
+              <td className="py-2 px-4">April 15</td>
+              <td className="py-2 px-4">May 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">June</td>
+              <td className="py-2 px-4">May 15</td>
+              <td className="py-2 px-4">June 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">July</td>
+              <td className="py-2 px-4">June 15</td>
+              <td className="py-2 px-4">July 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">August</td>
+              <td className="py-2 px-4">July 15</td>
+              <td className="py-2 px-4">August 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">September</td>
+              <td className="py-2 px-4">August 15</td>
+              <td className="py-2 px-4">September 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">October</td>
+              <td className="py-2 px-4">September 15</td>
+              <td className="py-2 px-4">October 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">November</td>
+              <td className="py-2 px-4">October 15</td>
+              <td className="py-2 px-4">November 10</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4">December</td>
+              <td className="py-2 px-4">November 15</td>
+              <td className="py-2 px-4">December 10</td>
+            </tr>
+          </tbody>
+        </table>
+        <p className="text-gray-600 text-sm">
+          Note: For detailed information on program start dates and to check the status of your application, please visit our{" "}
+          <Link href="/admissions" className="text-blue-600 hover:underline">
+            Admissions page
+          </Link>
+          .
+        </p>
       </div>
     </section>
   );
