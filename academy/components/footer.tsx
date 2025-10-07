@@ -14,7 +14,6 @@ export function Footer() {
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white">
                 <span className="sr-only">Facebook</span>
-                {/* Add social media icons */}
               </a>
               <a href="#" className="text-gray-300 hover:text-white">
                 <span className="sr-only">Twitter</span>
@@ -42,8 +41,9 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-gray-300">
               <li><Link href="/about" className="hover:text-white">About Us</Link></li>
               <li><Link href="/about/faculty" className="hover:text-white">Faculty</Link></li>
-              <li><Link href="/events" className="hover:text-white">Events</Link></li>
-              <li><Link href="/news" className="hover:text-white">News</Link></li>
+              <li><Link href="/blog" className="hover:text-white">Blog</Link></li>
+              <li><Link href="/alumni" className="hover:text-white">Alumni</Link></li>
+              <li><Link href="/careers" className="hover:text-white">Careers</Link></li>
               <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
             </ul>
           </div>
@@ -61,14 +61,27 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
-            © 2024 DibaTech Academy. All rights reserved.
-          </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/privacy" className="text-gray-400 hover:text-white text-sm">Privacy</Link>
-            <Link href="/terms" className="text-gray-400 hover:text-white text-sm">Terms</Link>
-            <Link href="/accessibility" className="text-gray-400 hover:text-white text-sm">Accessibility</Link>
+        {/* DibaTech Ecosystem */}
+        <div className="border-t border-gray-800 mt-8 pt-8">
+          <div className="text-center mb-4">
+            <p className="text-gray-400 text-sm mb-3">Part of the DibaTech Ecosystem</p>
+            <div className="flex flex-wrap justify-center gap-6 text-sm">
+              <a href="https://dibatech.ng" target="_blank" rel="noopener" className="text-gray-400 hover:text-white">DibaTech Main</a>
+              <a href="https://ebooks.dibatech.ng" target="_blank" rel="noopener" className="text-gray-400 hover:text-white">DibaTech eBooks</a>
+              <a href="https://linker.dibatech.ng" target="_blank" rel="noopener" className="text-gray-400 hover:text-white">DibaTech Linker</a>
+              <span className="text-blue-400 font-medium">DibaTech Academy</span>
+            </div>
+          </div>
+          
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="text-gray-400 text-sm">
+              © 2024 DibaTech Academy. All rights reserved.
+            </p>
+            <div className="flex space-x-6 mt-4 md:mt-0">
+              <Link href="/privacy" className="text-gray-400 hover:text-white text-sm">Privacy</Link>
+              <Link href="/terms" className="text-gray-400 hover:text-white text-sm">Terms</Link>
+              <Link href="/accessibility" className="text-gray-400 hover:text-white text-sm">Accessibility</Link>
+            </div>
           </div>
         </div>
       </div>
