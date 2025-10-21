@@ -83,9 +83,14 @@ export default function CareersPage() {
                     <span>{job.department}</span>
                   </div>
                 </div>
-                <Link href="/contact" className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700">
+                <a 
+                  href="https://dibatech.ng/get-employed/careers" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700"
+                >
                   Apply Now
-                </Link>
+                </a>
               </div>
               <p className="text-gray-700">{job.description}</p>
             </div>
@@ -108,8 +113,8 @@ export default function CareersPage() {
             <li className="flex items-start gap-3">
               <span className="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">2</span>
               <div>
-                <div className="font-semibold">Submit Application</div>
-                <div className="text-gray-600 text-sm">Send your CV and cover letter to careers@dibatech.ng</div>
+                <div className="font-semibold">Visit DibaTech Careers</div>
+                <div className="text-gray-600 text-sm">Apply through our main careers portal at dibatech.ng</div>
               </div>
             </li>
             <li className="flex items-start gap-3">
@@ -134,11 +139,16 @@ export default function CareersPage() {
       <div className="bg-blue-50 rounded-lg p-8 text-center">
         <h2 className="text-2xl font-bold mb-4">Ready to Join Our Team?</h2>
         <p className="mb-6 text-gray-700">
-          Don't see a position that fits? Send us your CV anyway - we're always looking for talented people.
+          Don't see a position that fits? Visit our main careers page to explore all DibaTech opportunities.
         </p>
         <div className="flex gap-4 justify-center">
-          <a href="mailto:careers@dibatech.ng" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">
-            Send Your CV
+          <a 
+            href="https://dibatech.ng/get-employed/careers" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700"
+          >
+            View All Careers
           </a>
           <Link href="/contact" className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">
             Get in Touch
