@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /out/
+
+# Sitemap
+Sitemap: https://academy.dibatech.ng/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1

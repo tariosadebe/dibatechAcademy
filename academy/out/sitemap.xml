@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://academy.dibatech.ng/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/about</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/programs</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/admissions</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/contact</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/resources</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/about/faculty</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/programs/software-engineering</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/programs/data-analytics</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/outcomes</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/blog</loc><priority>0.6</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/alumni</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://academy.dibatech.ng/careers</loc><priority>0.5</priority><changefreq>monthly</changefreq></url>
+</urlset>

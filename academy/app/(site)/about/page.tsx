@@ -40,7 +40,7 @@ export default function AboutPage() {
             <div className="text-sm text-gray-600">Partner Companies</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-blue-600">Lagos & Online</div>
+            <div className="text-2xl font-bold text-blue-600">Online and Offline classes</div>
             <div className="text-sm text-gray-600">Locations</div>
           </div>
         </div>
@@ -57,7 +57,7 @@ export default function AboutPage() {
         <div>
           <h2 className="text-2xl font-bold mb-4">Our Vision</h2>
           <p className="text-gray-700">
-            To become Africa's leading technology education institution, known for producing job-ready graduates who drive innovation and economic growth across the continent.
+            To help and support individuals from all backgrounds to successfully transition into tech careers, gain practical skills, and achieve their professional goals. We believe everyone deserves access to quality tech education and the opportunity to build a better future for themselves and their families.
           </p>
         </div>
       </div>

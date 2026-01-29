@@ -172,7 +172,7 @@ export default function AdmissionsPage() {
           Please download and read our DibaTech Academy Guidelines to understand our policies, procedures, and what to expect as a student.
         </p>
         <a 
-          href="/pdf/DibaTech-Guidelines.pdf" 
+          href="/pdf/DibaTech%20GuideLines.pdf" 
           target="_blank" 
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-orange-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-orange-700"
